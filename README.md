@@ -1,16 +1,16 @@
 # qrreader
 
-A new Flutter project.
+This is a simple app for scanning QR codes and storing its data filtered depending on what data is provided
 
-## Getting Started
+This app provides a list of each QR code data and filtered it in urls, locations. If it is non of them it will be filtered as "anything". maps will be opened in the app.
 
-This project is a starting point for a Flutter application.
+## Project Dependencies
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- cupertino_icons: ^1.0.2
+- provider: ^6.0.2
+- flutter_barcode_scanner: ^2.0.0
+- sqflite: ^2.0.2
+- url_launcher: ^6.0.18
+- google_maps_flutter: ^2.1.1
+- fluttertoast: ^8.1.1
+- flutter_svg: ^1.1.6
